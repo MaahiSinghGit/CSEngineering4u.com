@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navlist li.cpp{
+    background-color: rgba(236, 74, 74, 0.801);
+    font-weight: bold;
+}
+.page{
+    margin: 0px;
+    padding: 5px 0px ;
+display: flex;
+flex-direction: column;
+text-align: center;
+/* justify-content: center; */
+border: 0.3px solid black;
+height: 100vh;
+background-color: rgb(226, 172, 122);
+}
+
+.page .start{
+    text-align: center;
+    font-size: 32px;
+    padding: 10px 0px 10px 0px;
+    color: black;
+    background-color: orange;
+    border: .5px solid black;
+}
+.mainpage{
+    display: flex;
+flex-direction: row;
+/* text-align: center; */
+/* justify-content: center; */
+
+}
+
+   
+.lesson{
+    display: flex;
+flex-direction: column;
+text-align: left;
+justify-content: left;
+width: 25%;
+border: 0.5px solid red ;
+margin: 5px;
+border-radius: 5px;
+list-style: decimal;
+background-color: coral;
+}
+.lesson h2{
+text-align: center;
+font-size: 25px;
+border: 0.5px solid rgb(7, 7, 7);
+background-color: rgb(255, 81, 0);
+
+}
+.lesson cl{
+display: flex;
+flex-direction: column;
+padding: 2px;
+
+}
+.lesson cl li{
+margin: 5px;
+
+}
+.lesson cl li a{
+text-decoration: none;
+color: black;
+
+}
+.lesson cl li a:hover{
+color: darkgreen;
+
+}
+
+
+.content{
+width: 70%;
+height: 70vh;
+/* border: 2px solid red ; */
+display: flex;
+flex-direction: column;
+text-align: left;
+justify-content: left;
+margin: 5px 0px 0px 25px;
+}
+.content h2{
+text-align: center;
+font-size: 25px;
+border: 0.5px solid rgb(7, 7, 7);
+background-color: rgb(255, 81, 0);
+}

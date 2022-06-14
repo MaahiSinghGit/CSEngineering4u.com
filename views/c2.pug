@@ -1,0 +1,59 @@
+extends base.pug
+block scripts
+    script(src='/static/index.js')
+block style
+    style
+        include ../static/style.css
+        include ../static/cs/c.css
+        include ../static/cs/c2.css
+block content
+        <div class="page">
+        //- <h2 class="start">Welcome To C Language Tutorial</h2>
+        <div class="mainpage">
+            <div class="lesson">
+                <h2>C Tutorial</h2>
+                <cl>
+                    <li><a href="c.pug">Introduction of C language</a></li>
+                    <li><a href="c1.pug"> C Data Type</a></li>
+                    <li><a href="c2.pug">Constant</a></li>
+                    //- <li><a href="/">introduction of c language</a></li> 
+                </cl>
+
+            </div>
+            <div class="contents">
+                <div class="content">
+                    <h3>What Is Constant</h3>
+                    <p>  Constant की value fixed होती है |
+                        | Constant किसी भी data type का हो सकता है |
+                        | Constant को Literals भी कहते है |
+                        | Constant Pointer भी होता है |</p>
+                    <p>Syntax : const data_type variable_name = value(optional)</p>
+                    <cl class="h2">
+                        <p class="typ">Types of Constant:-</p>
+                        <li>Integer Constant</li>
+                        <li>Decimal Constant</li>
+                        <li>Octal Constant</li>
+                        <li>Hexadecimal Constant</li>
+                        <li>Floating-point/Real Constant</li>
+                        <li>Character Constant</li>
+                        <li>String Constant</li>
+                        <li>Preprocessor</li>
+                        
+                    </cl>
+                    <cl> <p class="typ">Integer Constant Types :-</p>
+                        <li>Decimal integer Constant</li>
+                        <li>Octal Integer Constant</li>
+                        <li>Hexadecimal Integer Constant</li>
+                        <p>Integer Constant normal Variable की तरह काम करता है |
+                            | Integer Constant positive (+) या negative (-) हो सकता है |
+                            | Integer Constant की Range -32768 से 32767 तक होती है |</p>
+                    </cl>
+                   
+
+                </div>
+                <cl class="Next">
+                    <li><a href="c2.pug" class="next">Next</a></li>
+                </cl>
+            </div>
+        </div>
+        </div>

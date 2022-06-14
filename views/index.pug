@@ -1,0 +1,50 @@
+doctype html
+html
+  head
+    title CSEngineer4u.com
+    style
+      include ../static/style.css
+      include ../static/responsive.css
+  body
+    <nav class="navbar background">
+        <ul class="navlist">
+            <div class="logo"> <img src="img/logo.jpg" alt="logo">
+            <p>CSEngineer4u.com</p>
+            </div>
+            <li><a href="/"> Home</a></li>
+            <li><a href="/"> C</a></li>
+            <li><a href="/"> C++</a></li>
+            <li><a href="/"> Java</a></li>
+            <li><a href="/"> Contact-Us</a></li>
+        </ul>
+        <div class="rightnav">
+            <input type="text" name="search" id="search">
+            <button class="btns">Search</button>
+        </div>
+    </nav>
+   section#intro
+        div.wlcm Welcome To CSEngineer4u.com
+        div.wlcmc The Best Portal to Learn Technologies
+   section#oursubjects
+    h2 Our Tutorials
+    div.homepage
+         .cl
+          <img src="https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png" width="100%" height="100%">
+            <a href="../views/nav/C.pug">
+                <p>C</p>
+            </a>
+         .cl
+          <img src="cpp.png" width="100%" height="100%">
+            <a href="../views/nav/cpp.pug">
+                <p>C++</p>
+            </a>    
+         .cl
+          <img src="java.png" width="100%" height="100%">
+            <a href="../views/nav/java.pug">
+            <p>java</p>
+            </a>
+footer#footer                  
+        |  Copyright &copy;2020 www.CSEngineer4u.com. All rights reserved!
+
+script
+   include ../static/index.js

@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navlist li.cpp{
+    background-color: rgba(236, 74, 74, 0.801);
+    font-weight: bold;
+}
+.page{
+margin: 0px;
+padding: 5px 0px ;
+display: flex;
+flex-direction: column;
+text-align: center;
+/* justify-content: center; */
+border: 0.3px solid black;
+background-color: rgb(226, 172, 122);
+}
+
+.page .start{
+    text-align: center;
+    font-size: 32px;
+    padding: 10px 0px 10px 0px;
+    color: black;
+    background-color: orange;
+    border: .5px solid black;
+}
+.mainpage{
+    display: flex;
+flex-direction: row;
+/* text-align: center; */
+/* justify-content: center; */
+}  
+.lesson{
+    display: flex;
+flex-direction: column;
+text-align: left;
+justify-content: left;
+width: 25%;
+border: 0.5px solid red ;
+margin: 5px;
+border-radius: 5px;
+list-style: decimal;
+background-color: coral;
+}
+.lesson h2{
+text-align: center;
+font-size: 25px;
+border: 0.5px solid rgb(7, 7, 7);
+background-color: rgb(255, 81, 0);
+
+}
+.lesson cl{
+display: flex;
+flex-direction: column;
+padding: 2px;
+
+}
+.lesson cl li{
+margin: 5px;
+
+}
+.lesson cl li a{
+text-decoration: none;
+color: black;
+
+}
+.lesson cl li a:hover{
+color: darkgreen;
+
+}
+.contents
+{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-bottom: 20px;
+}
+.content
+{
+/* border: 2px solid red ; */
+display: flex;
+flex-direction: column;
+text-align: left;
+justify-content: left;
+margin: 5px 0px 0px 25px;
+
+}
+.Next
+{
+    list-style: none;
+    margin-top: 30px;
+}
+.next
+{
+    text-decoration: none;
+    border: .2px solid black;
+    border-radius: 5px;
+    /* margin: 5px 3px; */
+    font-size: 22px;
+    padding: 3px 5px;
+    background-color: rgba(29, 28, 28, 0.89);
+    color: white;
+
+}
+.next:hover
+{
+    background-color: rgba(3, 3, 3, 0.986);
+    color: white;
+    font-weight: bold;
+}
+.content h2
+{
+    margin-bottom: 20px;
+text-align: center;
+font-size: 25px;
+border: 0.5px solid rgb(7, 7, 7);
+background-color: rgb(255, 81, 0);
+}
+.content h3{
+    margin: 15px 0px;
+    text-align: center;
+    font-size: 20px;
+    border: 0.5px solid rgb(7, 7, 7);
+    background-color: rgb(255, 81, 0);
+    
+    
+    }
+.content li{
+    margin-top: 10px;
+}
+.bold{
+    font-size: 20px;
+    font-weight: bold;
+}

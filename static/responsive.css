@@ -1,0 +1,6 @@
+@media (min-width:250px) and (max-width:500px)
+{
+ ul.navlist{
+flex-direction: column;
+}
+}

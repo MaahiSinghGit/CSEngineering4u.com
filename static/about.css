@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sorry{
+    text-align: center;
+    height: 75vh;
+    background-color: rgba(253, 99, 28, 0.52);
+}
+h1{
+    padding: 20px;
+    font-size: 30px;
+    color: black;
+
+}

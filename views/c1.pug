@@ -1,0 +1,106 @@
+extends base.pug
+block scripts
+    script(src='/static/index.js')
+block style
+    style
+        include ../static/style.css
+        include ../static/cs/c1.css
+block content
+        <div class="page">
+        //- <h2 class="start">Welcome To C Language Tutorial</h2>
+        <div class="mainpage">
+            <div class="lesson">
+                <h2>C Tutorial</h2>
+                <cl>
+                    <li><a href="c.pug">Introduction of C language</a></li>
+                    <li><a href="c1.pug"> C Data Type </a></li>
+                    <li><a href="c2.pug">Constant</a></li>
+                    //- <li><a href="/">introduction of c language</a></li> 
+                </cl>
+
+            </div>
+            <div class="contents">
+                <div class="content">
+                        <h2> C Data Type </h2>
+                        <p> Types Of Data Type in C</p>
+                        <cl class="data">
+                            <li ><a class="h1" >Basic Data Types</a></li>
+                            
+                                <cl class="basic">
+                                    <li><a>Integer</a></li>
+                                    <li><a>Character</a></li>
+                                    <li><a>Float</a></li>
+                                    <li><a>Double</a></li>
+                                    <li><a>Void</a></li>
+                                </cl>
+                                
+                            
+                            <li><a class="h1">Drived Data Types</a></li>
+                                <cl class="basic">
+                                    <li><a>Array</a></li>
+                                    <li><a>Storage Classes</a></li>
+                                </cl>
+                            
+                            <li><a class="h1">User-Define Data Types</a> </li>
+                                <cl class="basic">
+                                    <li><a>Structure</a></li>
+                                    <li><a>Union</a></li>
+                                </cl>
+                           
+                        </cl>
+                </div>
+                <div class="content">
+                    <h2>Basic Data Type</h2>
+                    <cl class="bas">
+                        <li><a  class="h1">Integer :</a>
+                            <p>
+                                Integer Data Type में variable को declare करने के 'int' keyword का इस्तेमाल करते है |
+                                | Integer Data Type सभी numeric values को store कर सकता है |integer को output में print करना हो तो '%d' format specifier से output में print करते है |
+                                | Integer Data Type 2, 4 और 8 bytes के हो सकते है |
+                                | अगर Computer का Processor 16-bit हो तो int का size 2 Bytes होता है |
+                                | अगर Computer का Processor 32-bit हो तो int का size 4 Bytes होता है |
+                                | अगर Computer का Processor 64-bit हो तो int का size 8 Bytes होता है |
+                            </p>
+                            <h4>Integer Data Type, Storage Size and Range</h4>
+                            <img src="/static/cs/cimg/int.jpeg" alt="integer" height="50%" width="35%">
+                        </li>
+                        <li><a  class="h1">Character :</a>
+                            <p>
+                                Character Data Type में variable को declare करने के 'char' keyword का इस्तेमाल करते है |
+                                | Character को output में print करना हो तो '%c' format specifier से output में print करते है |
+                                | सिर्फ एक ही character को declare कर सकते है | for eg. 'H'
+                                | अगर multiple character मतलब पूरे एक string को print करना हो तो '%s' का इस्तेमाल करते है |
+                                | Character Data Type 1 byte का होता है |
+                                
+                            </p>
+                            <h4>Character Data Type, Storage Size and Range</h4>
+                            <img src="/static/cs/cimg/char.jpeg" alt="Character" height="50%" width="35%">
+                        </li>
+                        <li><a  class="h1" >Float :</a>
+                            <p> Floating-point Data Type में variable को declare करने के 'float' keyword का इस्तेमाल करते है |
+                                |float को output में print करना हो तो '%f' format specifier से output में print करते है |
+                                |Floating-pont Data Type 4 bytes का होता है | 
+                            </p>
+                            <img src="/static/cs/cimg/float.jpeg" alt="float" height="50%" width="35%">
+                        </li>
+                        <li><a  class="h1">Double :</a>
+                            <p> Double Data Type में variable को declare करने के 'double' keyword का इस्तेमाल करते है |
+                                |integer को output में print करना हो तो '%f', '%e', '%E', '%lf' format specifiers से output में print करते है |
+                                |Double Data Type 8 bytes का होता है | |
+                                |Double और Floating-point Data Type में कोई फर्क नहीं है |</p>
+                                <img src="/static/cs/cimg/dou.jpeg" alt="Double" height="50%" width="35%">
+                            </li>
+                        <li><a  class="h1">Void :</a>
+                            <p>      void मतलब null value |
+                                    | void में कोई value नहीं होती |
+                                    | ये data type function और function के parameter / argument के लिए इस्तेमाल करते है |
+                                    | ये कोई value return नहीं करता |</p></li>
+                    </cl>
+
+                </div>
+                <cl class="Next">
+                    <li><a href="c2.pug" class="next">Next</a></li>
+                </cl>
+            </div>
+        </div>
+        </div>

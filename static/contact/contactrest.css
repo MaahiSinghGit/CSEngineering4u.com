@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+
+}
+.navlist li.co{
+    background-color: rgba(236, 74, 74, 0.801);
+    font-weight: bold;
+}
+.ourcontact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px double rgb(255, 81, 0);
+    height: 80vh;
+}
+h2{
+    padding-top: 35px;
+    padding-bottom: 10px;
+    font-size: 43px;
+    color: black;
+}
+p{
+    font-size: 28px;
+    color: black;
+    padding-top: 10px;
+}

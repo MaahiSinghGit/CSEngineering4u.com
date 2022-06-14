@@ -1,0 +1,97 @@
+extends base.pug
+block scripts
+    script(src='/static/index.js')
+block style
+    style
+        include ../static/style.css
+        include ../static/cs/c.css
+block content
+        <div class="page">
+        <h2 class="start">Welcome To C Language Tutorial</h2>
+        <div class="mainpage">
+            <div class="lesson">
+                <h2>C Tutorial</h2>
+                <cl>
+                    <li><a href="c.pug">introduction of C Language</a></li>
+                    <li><a href="c1.pug"> C Data Types</a></li>
+                    <li><a href="c2.pug">Constant</a></li>
+                    //- <li><a href="/">introduction of c language</a></li> 
+                </cl>
+            </div>
+            <div class="contents">
+                <div class="content">
+                    <h2>Introduction of C language</h2>
+                    <p> C Language में बहुत बड़े-बड़े softwares बनाए गए है जैसेकि, Operating Systems, Databases, Computer Drivers, Editors, Assembler, Compiler etc.</p>
+                    <p>C Programming के बनाने का उद्देश Unix Operating System बनाना ही था, लेकिन आज ये language सबसे ज्यादा इस्तेमाल होनेवाली language है |</p>
+                    <p>जो कोई C Programming अच्छी तरह से सीखता है तो उसे ज्यादातर कोई दूसरी language सिखने में कोई दिक्कत नहीं आती जैसीकि, C++, Core Java या Python.</p>
+                    <p>Computer के या अन्य किसी Hardware को चलाने के लिए C Language का ज्यादातर इस्तेमाल होता है |</p>
+                    <p>C Programming ये एक General-Purpose High-Level Language है |</p> 
+                </div>
+                <div class="content">    
+                    <h2 class="hs">History of C Programming</h2>
+                    <p>C Programming के अविष्कार से पहले Martin Richards ने 1966 में BCPL मतलब Basic Combined Programming Language का जनम हुआ |</p>
+                    <p>बाद में Ken Thompson ने BCPL को और develop करके BCPL के पहले अक्षर का मतलब B Language का अविष्कार किया |</p>
+                    <p>B Language के चलते Ken Thompson ने Basic तरह की Unix Operating System बनाई |</p>
+                    <p>उसके बाद Dennis Ritchie ने B Language को और develop करके Bell Laboratory में C Programming Language बनाई |</p>
+                    <p>C Programming को बनाने के बाद Dennis Ritchie और Ken Thompson ने मिलकर UNIX Operating System को develop किया |</p>
+                       
+                </div>
+                <div class="content">
+                    <h2 class="Program"> C-Structure of Program</h2>
+                    <cl>
+                        <h3><a>Program Structure :</a></h3>
+                        <li><a>Preprocessor:- #include stdio.h</a></li>
+                        <li><a>return_type & main function:-	int main()</a></li>
+                        <li><a>Opening curly brace:-	{</a></li>
+                        <li><a>printf i/o function:-	printf("Hello World");</a></li>
+                        <li><a>return 0;</a></li>
+                        <li><a>Closing curly brace:-	}</a></li>
+                    </cl>
+                    <p>ये Program C Programming में सबसे पहला और आसान Program है | ऊपर दिया हुआ Program छह भाग में बटा हुआ है |</p>
+                    <cl class="six">
+                        <li><a> Preprocessor</a></li>
+                        <li><a> main function</a></li>
+                        <li><a> {</a></li>
+                        <li><a> printf("Hello World");</a></li>
+                        <li><a> return 0;</a></li>
+                        <li><a> }</a></li>
+                    </cl>
+                    <cl class="six">
+                        <li><a> Preprocessor : </a>
+                        <p>Program में सबसे पहले preprocessors/header को लिखा जाता है | ये preprocessors अलग-अलग काम के लिए विभाजित किये हुए है, for eg. stdio.h में printf और scanf function आते है | conio.h में getch function आता है | और भी कुछ preprocessors है |</p></li>
+                        <li><a>int main() :</a>
+                        <p> यहाँ पर main function का return_type integer है | main function का return_type void भी लिखा जाता है पर void कोई भी value return नहीं करता | Program की शुरुआत main() function से होती है |</p></li>
+                        <li><a> { : </a>
+                        <p>हर function के codes या statements को curly brace open होने के बाद लिखा जाता है |</p></li>
+                        <li><a> printf("Hello World"); :</a>
+                        <p> printf() function में लिखे हुए statement को output में print किया जाता है | इस statement को दो Double Quotes (" ") के अंदर लिखा जाता है |
+                        </p></li>
+                        <li><a> return 0; : </a>'
+                        <p>return 0 ये Program को बंद करने की अनुमति देता है | ये '0' main function को return करता है |</p></li>
+                        <li><a> } :</a>
+                        <p>यहाँ पर } इस curly brace से main function को close किया है |</p></li>
+                    </cl>
+                   
+                </div>
+                <div  class="content">
+                    <h3>Source Code :</h3>
+                    <p><a><img src="/static/hellop.png" alt="Hello Program"></a></p>            
+                    <h3> Output :</h3>
+                    <p> Hello World !</p>
+                </div>
+                <div class="content">
+                    <h2>Turbo C / C++ Download करे |</h2>
+                    <p>Download किये हुए Turbo C / C++ को अपने Computer में install करे |</p>
+                    <p>उस Application को Open करके C Hello का Program लिखे |</p>
+                    <p>Program लिखने के बाद File पर जाकर save या F2 दबाया तो एक dialog box खुल जाएगा |</p>
+                    <p>Dialog Box खुलने के बाद उसे कोई भी नाम देकर उसे .c का extension दे | for eg. hello.c</p>
+                    <p>Save करने के बाद उसे F9 से Compile करे |</p>
+                    <p>अगर Program बिना error का हो तो CTRL+F9 से करे |</p>
+                </div>
+
+                <cl class="Next">
+                    <li><a href="c1.pug" class="next">Next</a></li>
+                </cl>
+            </div>
+        </div>
+        </div>
